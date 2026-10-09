@@ -58,11 +58,5 @@ java -cp "./lib/*:." tests.labs.routing.RunAllTests
 
 On Windows, use `;` instead of `:` in the classpath.
 
-## What I learned
-
-- How the frontier data structure alone (a queue or a stack) turns the same loop into BFS or DFS.
-- Why BFS returns a shortest path on an unweighted graph and DFS does not.
-- Where to mark a vertex as visited (when it is enqueued or when it is popped), and how that choice affects memory use and duplicate work.
-
 ---
 *Coursework for CS 440 at Boston University. The maze engine, `MazeAgent` state machine and test scaffolding were provided by the course staff. The BFS and DFS implementations are my own.*
